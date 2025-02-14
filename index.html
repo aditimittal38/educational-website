@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educational Website</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/courses.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Header-section -->
+  <header>
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="index.html#courses">Courses</a></li>
+        <li><a href="resource-page.html">Resources</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- Header-section-end -->
+  <div class="margin"></div>
+
+  <!-- Banner-section-start-->
+  <section class="banner" id="home">
+    <div class="banner-container">
+        <div class="slide"><img src="banner_images/1.png" alt="Slide 1"></div>
+        <div class="slide"><img src="banner_images/2.png" alt="Slide 2"></div>
+        <div class="slide"><img src="banner_images/3.png" alt="Slide 3"></div>
+        <div class="slide"><img src="banner_images/4.png" alt="Slide 4"></div>
+        <div class="slide"><img src="banner_images/5.png" alt="Slide 5"></div>
+        <div class="slide"><img src="banner_images/6.png" alt="Slide 6"></div>
+    </div>
+    
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+</section>
+
+<script src="./js/banner.js"></script>
+<!--Banner-section-end-->
+
+<!-- Course-section-start -->
+<section class="courses" id="courses"></section>
+
+
+<!-- <section class="section-container courses" id="courses">
+  <div class="course">
+    <div class="course-image">
+      <img src="./course_images/javascript_img.png">
+    </div>
+    <div class="course-details">
+      <div class="course-title">
+        Javascript Course
+      </div>
+      <div class="course-text">
+         Learn javascript from basics to advanced from our expert teachers now!
+      </div>
+    </div>
+  </div>
+</section>  -->
+<!-- Course-section-end -->
+
+
+
+<div class="margin"></div>
+
+<!-- Footer-section-start -->
+<footer>
+  <div class="footer-content">
+    <p>
+      Let's connect and collaborate. Feel free to reach out &#128512
+    </p>
+    <ul class="social-media">
+      <li><i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/aditi-mittal-8699642a8" target="_blank">LinkedIn</a></li>
+      <li><i class="fab fa-github"></i>
+        <a href="https://github.com/aditimittal38/" target="_blank">GitHub</a></li>
+      <li><i class="fas fa-envelope"></i>
+        <a href="mailto:aditimittal38@gmail.com" target="_blank">GMail</a></li>
+    </ul>
+  </div>
+  
+
+ </footer>
+ <!-- Footer-section-end -->
+<script src="./js/courses.js">
+
+</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+/* Quiz container styling */
+#quiz-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 100px 20px;
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+  height: 60vh;
+}
+
+/* Question styling */
+#question-container {
+  margin-bottom: 20px;
+}
+
+#question {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Answer button styling */
+#answers button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#answers button:hover {
+  background-color: #0056b3;
+}
+
+/* Selected answer feedback */
+#answers button.selected {
+  background-color: #28a745;
+}
+
+#answers button.incorrect {
+  background-color: #dc3545;
+}
+
+/* Next button styling */
+#next-btn, #retry-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+#next-btn:hover, #retry-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Result container styling */
+#result-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #28a745;
+  border-radius: 10px;
+  background-color: #f1f9f1;
+  text-align: center;
+  min-height: 80vh;
+
+}
+
+#result-container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#score {
+  color: #28a745;
+  font-weight: bold;
+}

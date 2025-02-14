@@ -1,0 +1,76 @@
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f4f4f9;
+  gap: 20px;
+}
+
+/* Individual course card */
+.course {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.course-image img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #007bff;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+/* Title styling */
+.course-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
+}
+
+/* Course description text */
+.course-text {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0 15px;
+  padding: 0 10px;
+  line-height: 1.6;
+}
+.course-difficulty {
+  font-size: 14px;
+  color: #007bff;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.course-image img {
+  width: 100%;
+  height: 200px; /* Fixed height to ensure uniform image sizes */
+  object-fit: cover; /* Ensures images are cropped appropriately without distortion */
+  border-bottom: 2px solid #007bff;
+  border-radius: 10px 10px 0 0;
+}
+.course-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.course-button:hover {
+  background-color: #0056b3;
+}
